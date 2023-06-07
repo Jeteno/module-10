@@ -1,0 +1,25 @@
+.wrapper {
+   display: flex;
+   justify-content: center;
+}
+.btn {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #007bff;
+   background-color: transparent;
+   background-image: none;
+   border-color: #007bff;
+   font-weight: 400;
+   padding: 0.375rem 0.75rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   border-radius: 0.25rem;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn__title {
+   margin-right: 15px;
+}
+.btn__none {
+   display: none;
+}

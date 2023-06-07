@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Задание 3</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="wrapper">
+      <section class="chat__page page">
+         <div class="chat__conteiner conteiner">
+            <div class="chat-open">
+               <button class="chat__btn" id="open-btn">
+                  Открыть чат
+               </button>
+            </div>
+            <div class="chat__body display" >
+               <nav class="chat__nav">
+                  <ul class="chat__list">
+                     <li class="chat__paragraph chat-message">
+                        <input type="text" class="chat-message__input" id="message" placeholder="Введите Ваше сообщение" required autocomplete="off">
+                     </li>
+                     <li class="chat__paragraph chat__button">
+                        <button class="chat__button-paragraph chat__btn" id="send-btn">
+                           Отправить
+                        </button>
+                     </li>
+                     <li class="chat__paragraph chat__button">
+                        <button class="chat__button-paragraph chat__btn" id="send-btn-geo">
+                           Гео-локация
+                        </button>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="chat__content">
+                  <div class="chat__content-body" id="chat-message">
+                     <!-- <a href="" class="" id="map-link"></a> -->
+                  </div>
+                  <div class="chat__content-button">
+                     <button class="chat__content-btn chat__btn" id="close-btn">
+                        Закрыть чат
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
